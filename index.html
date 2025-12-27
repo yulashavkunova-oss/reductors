@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Редуктор на газель</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+</head>
 
+<body>
+  <div class="container">
+    <header>
+      <h1>Каталог редукторов</h1>
+      <div class="cart-info" id="cart-toggle">Корзина: <span id="cart-count">0</span></div>
+    </header>
+
+    <div class="products" id="products-container">
+      <!-- Товары загружаются через JS -->
+    </div>
+  </div>
+
+  <!-- Модальное окно корзины -->
+  <div class="cart-modal" id="cart-modal">
+    <div class="cart-content">
+      <div class="cart-header">
+        <h2>Ваша корзина</h2>
+        <button class="close-cart" id="close-cart">&times;</button>
+      </div>
+      <div class="cart-items" id="cart-items"></div>
+      <div class="cart-footer" id="cart-total">Всего товаров: 0</div>
+    </div>
+  </div>
+
+    <section>
+      <div class="cta">
+        <h3>Готовы обменять?</h3>
+        <p>Свяжитесь с нами — подберём подходящую модель и рассчитаем выгоду!</p>
+        <div class="contact-info">
+          <a href="tel:+74951234567"><i class="fas fa-phone icon"></i> +7 (495) 123-45-67</a>
+          <a href="mailto:info@reductor-profi.ru"><i class="fas fa-envelope icon"></i> info@reductor-profi.ru</a>
+          <a href="https://wa.me/74951234567" target="_blank"><i class="fab fa-whatsapp icon"></i> Написать в WhatsApp</a>
+          <a href="https://t.me/reductor_profi" target="_blank"><i class="fab fa-telegram icon"></i> Написать в Telegram</a>
+        </div>
+      </div>
+        <p>Где мы находимся:</p>
+        <p>
+  📍 Адрес: г. Челябинск, ул. Молодогвардейцев, д. 1/1 Б<br>
+  <a href="https://2gis.ru/chelyabinsk/geo/61.310093_55.213411" target="_blank" style="color: #007bff; text-decoration: none;">
+    <i class="fas fa-map-marker-alt"></i> Посмотреть на 2ГИС
+  </a>
+</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Редуктор — Продажа и обмен промышленных редукторов</p>
+    <p>г. Челябинск, ул. Молодогвардейцев, д. 1/1 корп. Б, ГСК "Коралл"</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
